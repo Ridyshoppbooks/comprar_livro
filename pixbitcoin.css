@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffefec; /* Cor de fundo clara com um tom de laranja suave */
+    color: #333;
+}
+
+header {
+    background-color: #ff6600; /* Laranja forte para o cabeçalho */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.payment-option {
+    background-color: #fff;
+    border: 1px solid #ff6600; /* Borda laranja para destacar */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+}
+
+.payment-option img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.payment-option h2 {
+    font-size: 1.2rem;
+    color: #ff6600; /* Título laranja */
+}
+
+footer {
+    background-color: #ff6600; /* Laranja forte para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
